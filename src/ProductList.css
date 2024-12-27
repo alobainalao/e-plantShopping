@@ -166,12 +166,9 @@ body {
 }
 .cart_quantity_count {
     position: absolute;
-    top: 40px; /* Ajusta para posicionarlo verticalmente sobre el carrito */
-    right: 43px; /* Centra horizontalmente */
-    font-size: 18px; /* Tamaño adecuado del texto */
-    text-align: center; /* Centra el texto dentro del círculo */
-    line-height: 1; /* Altura de línea ajustada */
-    z-index: 10; /* Asegura que esté por encima del ícono */
+    top: 40px; 
+    right: 43px; 
+    font-size: 18px; 
 }
 
 .plantname_heading{

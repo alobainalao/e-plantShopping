@@ -164,14 +164,16 @@ body {
     color: white;
     display: flex;
 }
-.cart_quantity_count{
-    margin-top: 16px;
-    /* background-color: red; */
-    margin-left: 27px;
+.cart_quantity_count {
     position: absolute;
-    font-size: 29px;
-
+    top: 40px; /* Ajusta para posicionarlo verticalmente sobre el carrito */
+    right: 43px; /* Centra horizontalmente */
+    font-size: 18px; /* Tamaño adecuado del texto */
+    text-align: center; /* Centra el texto dentro del círculo */
+    line-height: 1; /* Altura de línea ajustada */
+    z-index: 10; /* Asegura que esté por encima del ícono */
 }
+
 .plantname_heading{
    display: flex;
    align-items: center;

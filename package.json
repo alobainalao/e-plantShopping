@@ -1,6 +1,7 @@
 {
   "name": "shoppingcart",
   "private": false,
+  "homepage": "https://alobainalao.github.io/e-plantShopping/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\ProductList.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ProductList.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\ProductList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ProductList.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aloba\\source\\repos\\e-plantShopping\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aloba\\source\\repos\\e-plantShopping\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\CartItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\CartItem.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aloba\\source\\repos\\e-plantShopping\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\CartSlice.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -30,69 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "store.js",
-              "DocumentMoniker": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\store.js",
-              "RelativeDocumentMoniker": "src\\store.js",
-              "ToolTip": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\store.js",
-              "RelativeToolTip": "src\\store.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAADAAAA",
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\vite.config.js",
+              "RelativeDocumentMoniker": "vite.config.js",
+              "ToolTip": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\vite.config.js",
+              "RelativeToolTip": "vite.config.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-27T09:48:13.331Z",
+              "WhenOpened": "2024-12-27T15:03:55.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductList.css",
+              "DocumentMoniker": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\ProductList.css",
+              "RelativeDocumentMoniker": "src\\ProductList.css",
+              "ToolTip": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\ProductList.css",
+              "RelativeToolTip": "src\\ProductList.css",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAAAKQAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-27T13:54:20.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\index.html",
-              "RelativeDocumentMoniker": "index.html",
-              "ToolTip": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\index.html",
-              "RelativeToolTip": "index.html",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-27T09:36:54.474Z",
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-27T13:20:15.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "CartItem.jsx",
               "DocumentMoniker": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\CartItem.jsx",
               "RelativeDocumentMoniker": "src\\CartItem.jsx",
               "ToolTip": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\CartItem.jsx",
               "RelativeToolTip": "src\\CartItem.jsx",
-              "ViewState": "AQIAAA8AAAAAAAAAAADgvxgAAAAGAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-12-27T08:54:53.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "CartSlice.jsx",
               "DocumentMoniker": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\CartSlice.jsx",
               "RelativeDocumentMoniker": "src\\CartSlice.jsx",
               "ToolTip": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\CartSlice.jsx",
               "RelativeToolTip": "src\\CartSlice.jsx",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-12-27T08:53:45.213Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductList.jsx",
               "DocumentMoniker": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\ProductList.jsx",
               "RelativeDocumentMoniker": "src\\ProductList.jsx",
               "ToolTip": "C:\\Users\\aloba\\source\\repos\\e-plantShopping\\src\\ProductList.jsx",
               "RelativeToolTip": "src\\ProductList.jsx",
-              "ViewState": "AQIAACsBAAAAAAAAAAAAADMBAAAbAAAA",
+              "ViewState": "AQIAABsBAAAAAAAAAAAowB0BAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
               "WhenOpened": "2024-12-27T08:03:33.403Z",
               "EditorCaption": ""

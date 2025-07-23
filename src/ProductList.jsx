@@ -30,213 +30,214 @@ function ProductList() {
         });
     };
 
-    const plantsArray = [
-        {
-            category: "Air Purifying Plants",
-            plants: [
-                {
-                    name: "Snake Plant",
-                    image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
-                    description: "Produces oxygen at night, improving air quality.",
-                    cost: "$15"
-                },
-                {
-                    name: "Spider Plant",
-                    image: "https://cdn.pixabay.com/photo/2018/07/11/06/47/chlorophytum-3530413_1280.jpg",
-                    description: "Filters formaldehyde and xylene from the air.",
-                    cost: "$12"
-                },
-                {
-                    name: "Peace Lily",
-                    image: "https://cdn.pixabay.com/photo/2019/06/12/14/14/peace-lilies-4269365_1280.jpg",
-                    description: "Removes mold spores and purifies the air.",
-                    cost: "$18"
-                },
-                {
-                    name: "Boston Fern",
-                    image: "https://cdn.pixabay.com/photo/2020/04/30/19/52/boston-fern-5114414_1280.jpg",
-                    description: "Adds humidity to the air and removes toxins.",
-                    cost: "$20"
-                },
-                {
-                    name: "Rubber Plant",
-                    image: "https://cdn.pixabay.com/photo/2020/02/15/11/49/flower-4850729_1280.jpg",
-                    description: "Easy to care for and effective at removing toxins.",
-                    cost: "$17"
-                },
-                {
-                    name: "Aloe Vera",
-                    image: "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
-                    description: "Purifies the air and has healing properties for skin.",
-                    cost: "$14"
-                }
-            ]
-        },
-        {
-            category: "Aromatic Fragrant Plants",
-            plants: [
-                {
-                    name: "Lavender",
-                    image: "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    description: "Calming scent, used in aromatherapy.",
-                    cost: "$20"
-                },
-                {
-                    name: "Jasmine",
-                    image: "https://images.unsplash.com/photo-1592729645009-b96d1e63d14b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    description: "Sweet fragrance, promotes relaxation.",
-                    cost: "$18"
-                },
-                {
-                    name: "Rosemary",
-                    image: "https://cdn.pixabay.com/photo/2019/10/11/07/12/rosemary-4541241_1280.jpg",
-                    description: "Invigorating scent, often used in cooking.",
-                    cost: "$15"
-                },
-                {
-                    name: "Mint",
-                    image: "https://cdn.pixabay.com/photo/2016/01/07/18/16/mint-1126282_1280.jpg",
-                    description: "Refreshing aroma, used in teas and cooking.",
-                    cost: "$12"
-                },
-                {
-                    name: "Lemon Balm",
-                    image: "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
-                    description: "Citrusy scent, relieves stress and promotes sleep.",
-                    cost: "$14"
-                },
-                {
-                    name: "Hyacinth",
-                    image: "https://cdn.pixabay.com/photo/2019/04/07/20/20/hyacinth-4110726_1280.jpg",
-                    description: "Hyacinth is a beautiful flowering plant known for its fragrant.",
-                    cost: "$22"
-                }
-            ]
-        },
-        {
-            category: "Insect Repellent Plants",
-            plants: [
-                {
-                    name: "oregano",
-                    image: "https://cdn.pixabay.com/photo/2015/05/30/21/20/oregano-790702_1280.jpg",
-                    description: "The oregano plants contains compounds that can deter certain insects.",
-                    cost: "$10"
-                },
-                {
-                    name: "Marigold",
-                    image: "https://cdn.pixabay.com/photo/2022/02/22/05/45/marigold-7028063_1280.jpg",
-                    description: "Natural insect repellent, also adds color to the garden.",
-                    cost: "$8"
-                },
-                {
-                    name: "Geraniums",
-                    image: "https://cdn.pixabay.com/photo/2012/04/26/21/51/flowerpot-43270_1280.jpg",
-                    description: "Known for their insect-repelling properties while adding a pleasant scent.",
-                    cost: "$20"
-                },
-                {
-                    name: "Basil",
-                    image: "https://cdn.pixabay.com/photo/2016/07/24/20/48/tulsi-1539181_1280.jpg",
-                    description: "Repels flies and mosquitoes, also used in cooking.",
-                    cost: "$9"
-                },
-                {
-                    name: "Lavender",
-                    image: "https://images.unsplash.com/photo-1611909023032-2d6b3134ecba?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    description: "Calming scent, used in aromatherapy.",
-                    cost: "$20"
-                },
-                {
-                    name: "Catnip",
-                    image: "https://cdn.pixabay.com/photo/2015/07/02/21/55/cat-829681_1280.jpg",
-                    description: "Repels mosquitoes and attracts cats.",
-                    cost: "$13"
-                }
-            ]
-        },
-        {
-            category: "Medicinal Plants",
-            plants: [
-                {
-                    name: "Aloe Vera",
-                    image: "https://cdn.pixabay.com/photo/2018/04/02/07/42/leaf-3283175_1280.jpg",
-                    description: "Soothing gel used for skin ailments.",
-                    cost: "$14"
-                },
-                {
-                    name: "Echinacea",
-                    image: "https://cdn.pixabay.com/photo/2014/12/05/03/53/echinacea-557477_1280.jpg",
-                    description: "Boosts immune system, helps fight colds.",
-                    cost: "$16"
-                },
-                {
-                    name: "Peppermint",
-                    image: "https://cdn.pixabay.com/photo/2017/07/12/12/23/peppermint-2496773_1280.jpg",
-                    description: "Relieves digestive issues and headaches.",
-                    cost: "$13"
-                },
-                {
-                    name: "Lemon Balm",
-                    image: "https://cdn.pixabay.com/photo/2019/09/16/07/41/balm-4480134_1280.jpg",
-                    description: "Calms nerves and promotes relaxation.",
-                    cost: "$14"
-                },
-                {
-                    name: "Chamomile",
-                    image: "https://cdn.pixabay.com/photo/2016/08/19/19/48/flowers-1606041_1280.jpg",
-                    description: "Soothes anxiety and promotes sleep.",
-                    cost: "$15"
-                },
-                {
-                    name: "Calendula",
-                    image: "https://cdn.pixabay.com/photo/2019/07/15/18/28/flowers-4340127_1280.jpg",
-                    description: "Heals wounds and soothes skin irritations.",
-                    cost: "$12"
-                }
-            ]
-        },
-        {
-            category: "Low Maintenance Plants",
-            plants: [
-                {
-                    name: "ZZ Plant",
-                    image: "https://images.unsplash.com/photo-1632207691143-643e2a9a9361?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                    description: "Thrives in low light and requires minimal watering.",
-                    cost: "$25"
-                },
-                {
-                    name: "Pothos",
-                    image: "https://cdn.pixabay.com/photo/2018/11/15/10/32/plants-3816945_1280.jpg",
-                    description: "Tolerates neglect and can grow in various conditions.",
-                    cost: "$10"
-                },
-                {
-                    name: "Snake Plant",
-                    image: "https://cdn.pixabay.com/photo/2021/01/22/06/04/snake-plant-5939187_1280.jpg",
-                    description: "Needs infrequent watering and is resilient to most pests.",
-                    cost: "$15"
-                },
-                {
-                    name: "Cast Iron Plant",
-                    image: "https://cdn.pixabay.com/photo/2017/02/16/18/04/cast-iron-plant-2072008_1280.jpg",
-                    description: "Hardy plant that tolerates low light and neglect.",
-                    cost: "$20"
-                },
-                {
-                    name: "Succulents",
-                    image: "https://cdn.pixabay.com/photo/2016/11/21/16/05/cacti-1846147_1280.jpg",
-                    description: "Drought-tolerant plants with unique shapes and colors.",
-                    cost: "$18"
-                },
-                {
-                    name: "Aglaonema",
-                    image: "https://cdn.pixabay.com/photo/2014/10/10/04/27/aglaonema-482915_1280.jpg",
-                    description: "Requires minimal care and adds color to indoor spaces.",
-                    cost: "$22"
-                }
-            ]
-        }
-    ];
+    const carsArray = [
+  {
+    category: "SUVs",
+    products: [
+      {
+        name: "Toyota RAV4",
+        image: "https://cdn.pixabay.com/photo/2020/03/25/07/31/toyota-4965935_1280.jpg",
+        description: "SUV compacto, espacioso y eficiente.",
+        price: "$28,000"
+      },
+      {
+        name: "Honda CR-V",
+        image: "https://cdn.pixabay.com/photo/2020/05/22/15/33/honda-crv-5207630_1280.jpg",
+        description: "SUV confiable, ideal para familias.",
+        price: "$29,500"
+      },
+      {
+        name: "Ford Escape",
+        image: "https://cdn.pixabay.com/photo/2022/03/09/10/03/ford-escape-7056209_1280.jpg",
+        description: "SUV versátil con opciones híbridas.",
+        price: "$30,000"
+      },
+      {
+        name: "Mazda CX-5",
+        image: "https://cdn.pixabay.com/photo/2020/02/20/17/17/mazda-4864446_1280.jpg",
+        description: "Diseño elegante y excelente manejo.",
+        price: "$31,000"
+      },
+      {
+        name: "Chevrolet Equinox",
+        image: "https://cdn.pixabay.com/photo/2016/03/27/20/51/car-1283335_1280.jpg",
+        description: "SUV cómodo con gran equipamiento.",
+        price: "$27,000"
+      },
+      {
+        name: "Hyundai Tucson",
+        image: "https://cdn.pixabay.com/photo/2021/12/03/16/31/hyundai-6843744_1280.jpg",
+        description: "Moderno, con gran eficiencia y diseño.",
+        price: "$26,500"
+      }
+    ]
+  },
+  {
+    category: "Electric Vehicles",
+    products: [
+      {
+        name: "Tesla Model 3",
+        image: "https://cdn.pixabay.com/photo/2023/11/21/13/15/tesla-8399810_1280.jpg",
+        description: "Sedán eléctrico de alto rendimiento.",
+        price: "$40,000"
+      },
+      {
+        name: "Nissan Leaf",
+        image: "https://cdn.pixabay.com/photo/2016/10/03/16/59/nissan-leaf-1715460_1280.jpg",
+        description: "Compacto, accesible y totalmente eléctrico.",
+        price: "$27,000"
+      },
+      {
+        name: "Chevrolet Bolt",
+        image: "https://cdn.pixabay.com/photo/2019/10/13/16/06/chevrolet-bolt-4546884_1280.jpg",
+        description: "Compacto eléctrico con buena autonomía.",
+        price: "$26,000"
+      },
+      {
+        name: "BMW i3",
+        image: "https://cdn.pixabay.com/photo/2020/05/22/15/33/bmw-i3-5207633_1280.jpg",
+        description: "Estilo futurista y tecnología avanzada.",
+        price: "$45,000"
+      },
+      {
+        name: "Volkswagen ID.4",
+        image: "https://cdn.pixabay.com/photo/2021/04/11/20/47/volkswagen-id4-6169637_1280.jpg",
+        description: "SUV eléctrico familiar y moderno.",
+        price: "$38,000"
+      },
+      {
+        name: "Ford Mustang Mach-E",
+        image: "https://cdn.pixabay.com/photo/2021/07/14/11/53/ford-mustang-6465523_1280.jpg",
+        description: "Potente SUV eléctrico con estilo deportivo.",
+        price: "$43,000"
+      }
+    ]
+  },
+  {
+    category: "Luxury",
+    products: [
+      {
+        name: "BMW 7 Series",
+        image: "https://cdn.pixabay.com/photo/2019/11/08/15/14/bmw-4611475_1280.jpg",
+        description: "Lujo, potencia y tecnología premium.",
+        price: "$85,000"
+      },
+      {
+        name: "Mercedes-Benz S-Class",
+        image: "https://cdn.pixabay.com/photo/2016/11/29/12/37/car-1868726_1280.jpg",
+        description: "La cúspide del lujo en sedanes.",
+        price: "$90,000"
+      },
+      {
+        name: "Audi A8",
+        image: "https://cdn.pixabay.com/photo/2020/01/23/19/49/audi-4789301_1280.jpg",
+        description: "Elegancia alemana y confort.",
+        price: "$88,000"
+      },
+      {
+        name: "Lexus LS",
+        image: "https://cdn.pixabay.com/photo/2019/11/13/20/44/lexus-ls-4624193_1280.jpg",
+        description: "Silencioso, lujoso y confiable.",
+        price: "$81,000"
+      },
+      {
+        name: "Jaguar XJ",
+        image: "https://cdn.pixabay.com/photo/2020/03/18/13/44/jaguar-xj-4943873_1280.jpg",
+        description: "Estilo británico con alto desempeño.",
+        price: "$83,000"
+      },
+      {
+        name: "Genesis G90",
+        image: "https://cdn.pixabay.com/photo/2022/09/29/18/57/genesis-g90-7489034_1280.jpg",
+        description: "El nuevo lujo coreano con estilo moderno.",
+        price: "$76,000"
+      }
+    ]
+  },
+  {
+    category: "Sports Cars",
+    products: [
+      {
+        name: "Chevrolet Corvette",
+        image: "https://cdn.pixabay.com/photo/2020/04/16/19/23/chevrolet-corvette-5052235_1280.jpg",
+        description: "Deportivo icónico con motor central.",
+        price: "$65,000"
+      },
+      {
+        name: "Porsche 911",
+        image: "https://cdn.pixabay.com/photo/2018/04/06/19/42/porsche-3297612_1280.jpg",
+        description: "Deportivo alemán legendario.",
+        price: "$100,000"
+      },
+      {
+        name: "Ford Mustang",
+        image: "https://cdn.pixabay.com/photo/2017/09/02/13/25/mustang-2705400_1280.jpg",
+        description: "Muscle car clásico estadounidense.",
+        price: "$42,000"
+      },
+      {
+        name: "Dodge Challenger",
+        image: "https://cdn.pixabay.com/photo/2019/10/25/17/34/dodge-4580486_1280.jpg",
+        description: "Potencia bruta y estilo retro.",
+        price: "$39,000"
+      },
+      {
+        name: "Nissan GT-R",
+        image: "https://cdn.pixabay.com/photo/2017/09/01/18/13/nissan-2701513_1280.jpg",
+        description: "Tecnología y desempeño japonés.",
+        price: "$110,000"
+      },
+      {
+        name: "Mazda MX-5 Miata",
+        image: "https://cdn.pixabay.com/photo/2021/02/14/08/57/mazda-mx5-6013498_1280.jpg",
+        description: "Ligero, divertido y asequible.",
+        price: "$28,000"
+      }
+    ]
+  },
+  {
+    category: "Pickup Trucks",
+    products: [
+      {
+        name: "Ford F-150",
+        image: "https://cdn.pixabay.com/photo/2017/07/12/19/56/ford-2496900_1280.jpg",
+        description: "La pickup más vendida en EE.UU.",
+        price: "$38,000"
+      },
+      {
+        name: "Chevrolet Silverado",
+        image: "https://cdn.pixabay.com/photo/2018/08/21/23/07/chevy-3621795_1280.jpg",
+        description: "Potente y confiable en el trabajo.",
+        price: "$40,000"
+      },
+      {
+        name: "Ram 1500",
+        image: "https://cdn.pixabay.com/photo/2018/06/06/18/53/ram-truck-3457726_1280.jpg",
+        description: "Comodidad, fuerza y estilo robusto.",
+        price: "$42,000"
+      },
+      {
+        name: "Toyota Tacoma",
+        image: "https://cdn.pixabay.com/photo/2017/09/03/12/41/toyota-tacoma-2707882_1280.jpg",
+        description: "Pickup mediana duradera y confiable.",
+        price: "$36,000"
+      },
+      {
+        name: "GMC Sierra",
+        image: "https://cdn.pixabay.com/photo/2021/01/03/15/13/gmc-5884263_1280.jpg",
+        description: "Lujo y poder en una pickup.",
+        price: "$45,000"
+      },
+      {
+        name: "Nissan Frontier",
+        image: "https://cdn.pixabay.com/photo/2021/06/18/22/58/nissan-6346631_1280.jpg",
+        description: "Versátil y resistente para el trabajo.",
+        price: "$34,000"
+      }
+    ]
+  }
+];
+
     const styleObj = {
         backgroundColor: '#4CAF50',
         color: '#fff!important',

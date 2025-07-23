@@ -304,7 +304,7 @@ function ProductList() {
             </div>
             {!showCart ? (
                 <div className="product-grid">
-                    {plantsArray.map((category, index) => (
+                    {carsArray.map((category, index) => (
                         <div key={index}>
                             <h1><div>{category.category}</div></h1>
                             <div className="product-list">

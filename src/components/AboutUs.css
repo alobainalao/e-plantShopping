@@ -1,0 +1,13 @@
+.about-us-content {
+    width: 46vw;
+    text-align: justify;
+}
+
+/* Responsive: Móviles */
+@media screen and (max-width: 768px) {
+    .about-us-content {
+        width: 85vw;
+        padding: 0 1% 0 0;
+        text-align: right;
+    }
+}

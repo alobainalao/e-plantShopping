@@ -1,0 +1,149 @@
+﻿.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5b0a0a;
+    color: white;
+    max-height: 60px;
+    display: flex;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+    z-index: 1000;
+    justify-content: space-between;
+    font-family: 'Georgia', serif;
+    align-items: flex-start;
+    padding: 1%;
+}
+
+.header-container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: default;
+    flex-shrink: 0;
+}
+
+.logo-svg {
+    stroke: #c49a6c;
+    fill: #800020;
+    height: 80%;
+}
+
+.logo-text h3 {
+    margin: 0;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    letter-spacing: 1.5px;
+}
+
+.logo-text small {
+    font-size: clamp(0.6rem, 1vw, 0.8rem);
+    font-style: italic;
+    color: #d7bfae;
+    user-select: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(0.8rem, 2vw, 2rem);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex: 1;
+}
+
+    .nav-links li a {
+        color: #f1d3c0;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: clamp(0.7rem, 1.2vw, 1.1rem);
+        transition: color 0.25s ease, transform 0.25s ease;
+        display: inline-block;
+    }
+
+        .nav-links li a:hover {
+            color: #f9e4db;
+            transform: scale(1.1);
+        }
+
+        .nav-links li a.active {
+            color: #FFB347;
+        }
+
+.cart-icon {
+    position: relative;
+    margin-right: 2vw;
+    color: #FFD700;
+    display: flex;
+}
+
+    .cart-icon svg {
+        cursor: pointer;
+        transition: color 0.3s ease;
+        color: inherit;
+        margin-top: 1vw;
+        width: 4vw;
+    }
+
+    .cart-icon:hover svg {
+        color: #FFD700;
+    }
+
+.cart-count {
+    position: absolute;
+    top: 0;
+    right: 0.7rem;
+    color: #FFD700;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 3px 7px;
+    line-height: 1;
+}
+
+/* ----------- RESPONSIVE ----------- */
+@media (max-width: 500px) {
+    .header-container {
+        gap: 0.5rem;
+    }
+
+    .logo-svg, .cart-icon {
+        height: 1.8rem;
+        margin-top: 0.1rem;
+    }
+
+    .logo-text {
+        display: flex;
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+
+    .logo-text h3 {
+        font-size: 0.6rem;
+    }
+
+    .nav-links li a {
+        margin: 0;
+        font-size: 0.4rem;
+    }
+
+    .logo-text small {
+        font-size: 0.4rem;
+    }
+
+    .cart-count {
+        position: absolute;
+        right: -0.3rem;
+        color: #FFD700;
+        font-size: 0.5rem;
+    }
+}
+
